@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+.Ti{
+    font-family: 'Saira Stencil';
+    font-weight: 400;
+    text-align: center;
+}
+.Sl{
+    font-family: 'roboto';
+    font-weight: 700;
+    text-align: center;
+    margin-top: -1%;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
