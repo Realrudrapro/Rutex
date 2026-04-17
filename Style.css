@@ -24,4 +24,9 @@ button{
     outline: none;
     height: 10%;
     width: 15%;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: grey;
+    color: white;
 }
