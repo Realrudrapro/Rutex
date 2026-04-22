@@ -32,8 +32,8 @@ button:hover{
     color: rgb(0, 0, 0);
 }
 #editor {
-    width: 70%;
-    height: 50%;
+    width: 140%;
+    height: 100%;
     border: 1px solid #ccc;
     padding: 8px;
     overflow-y: auto;
