@@ -31,6 +31,12 @@ button:hover{
     background-color: rgb(208, 208, 208);
     color: rgb(0, 0, 0);
 }
-textarea{
+#editor {
+    width: 70%;
+    height: 50%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    overflow-y: auto;
     font-family: 'Roboto';
+    outline: black;
 }
