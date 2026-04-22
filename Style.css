@@ -32,7 +32,7 @@ button:hover{
     color: rgb(0, 0, 0);
 }
 #editor {
-    width: 100%;
+    width: 70%;
     height: 140%;
     border: 1px solid #ccc;
     padding: 8px;
