@@ -1,16 +1,16 @@
-const colorPicker = document.getElementById('cop')
-
 colorPicker.addEventListener('input', () => {
-  const selection = window.getSelection();
+  const sel = window.getSelection();
+  if (!sel || sel.rangeCount === 0) return;
 
-  if (!selection || selection.rangeCount === 0) return;
-
-  const range = selection.getRangeAt(0);
-
+  const range = sel.getRangeAt(0);
   if (range.collapsed) return;
 
   const span = document.createElement('span');
   span.style.color = colorPicker.value;
 
-  range.surroundContents(span);
+  const content = range.extractContents();
+  span.appendChild(content);
+  range.insertNode(span);
+
+  sel.removeAllRanges();
 });
