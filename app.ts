@@ -1,4 +1,4 @@
-const colorPicker = document.getElementById('colorPicker') as HTMLInputElement;
+const colorPicker = document.getElementById('cop') as HTMLInputElement;
 
 colorPicker.addEventListener('input', () => {
   const selection = window.getSelection();
