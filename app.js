@@ -1,3 +1,6 @@
+colorPicker.id = "cop";
+colorInput.id = "editor";
+
 colorPicker.addEventListener('input', () => {
   const sel = window.getSelection();
   if (!sel || sel.rangeCount === 0) return;
